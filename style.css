@@ -1,0 +1,55 @@
+body{
+    font-family: Montserrat;
+    overflow: hidden;
+}
+
+#countries{
+    text-align: center;
+    background-color: rgba(202, 201, 201, 0.2);
+    box-shadow: 2px 3px rgba(202, 201, 201, 0.5);
+}
+h2{
+    font-size: 2.5rem;
+    color: orange;
+    margin: 0rem auto 0 auto;
+    padding: 1rem 1rem 0 1rem;
+}
+.subtitle{
+    margin: .6rem auto auto auto;
+    padding: 0 1rem 1rem 1rem;
+}
+.graph-buttons{
+    text-align: center;
+    
+}
+button{
+    background-color: orange;
+    color: black;
+    border-radius: .2rem;
+    border: none;
+    font-size: .9rem;
+    padding: .3rem 1rem .3rem 1rem;
+    margin-top: .5rem;
+}
+.population{
+    margin-right: .3rem;
+}
+.graph-title{
+    font-size: .9rem;
+    font-weight: 200;
+}
+.graph-wrapper{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.graph{
+    background-color: rgba(202, 201, 201, 0.2);
+    box-shadow: 2px 3px rgba(202, 201, 201, 0.5);
+}
+
+.country-graphs{
+    width: 40%;
+}
+
